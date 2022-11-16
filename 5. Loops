@@ -25,3 +25,4 @@ Answer:
 num=[0,1,2,3,4]
 for X in num:
     print(X**2)
+
