@@ -22,7 +22,7 @@ Print  lines, one corresponding to each .
 '''
 
 Answer:
-num=[0,1,2,3,4]
-for X in num:
-    print(X**2)
-
+if __name__ == '__main__':
+    n = int(input())
+    for X in range (0,n):
+        print(X**2)
